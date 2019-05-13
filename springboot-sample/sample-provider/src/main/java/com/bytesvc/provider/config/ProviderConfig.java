@@ -41,7 +41,7 @@ public class ProviderConfig implements WebMvcConfigurer {
 		Properties properties = new Properties();
 		properties.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQLDialect");
 		properties.setProperty("hibernate.transaction.coordinator_class", "jta");
-		properties.setProperty("hibernate.transaction.jta.platform" //
+		properties.setProperty("hibernate.transaction.jta.platform"
 				, "org.bytesoft.bytetcc.supports.jpa.hibernate.HibernateJtaPlatform");
 
 		LocalContainerEntityManagerFactoryBean entityManager = new LocalContainerEntityManagerFactoryBean();

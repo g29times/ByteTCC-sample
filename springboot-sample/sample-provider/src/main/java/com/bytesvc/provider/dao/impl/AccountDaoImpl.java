@@ -1,13 +1,14 @@
-package com.bytesvc.provider.springdata;
+package com.bytesvc.provider.dao.impl;
 
+import com.bytesvc.provider.springdata.AccountRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
 import com.bytesvc.provider.dao.IAccountDao;
 import com.bytesvc.provider.model.Account;
 
 @Component("accountDao")
 public class AccountDaoImpl implements IAccountDao {
+
 	@Autowired
 	private AccountRepository repository;
 

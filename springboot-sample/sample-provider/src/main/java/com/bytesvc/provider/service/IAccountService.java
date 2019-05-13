@@ -1,4 +1,4 @@
-package com.bytesvc.provider.interfaces;
+package com.bytesvc.provider.service;
 
 public interface IAccountService {
 
